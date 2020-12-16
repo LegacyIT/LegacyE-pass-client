@@ -1,0 +1,39 @@
+/* Fonts */
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url(../fonts/Roboto-Bold.ttf); }
+
+@font-face {
+  font-family: 'Gill-Sans';
+  src: url(../fonts/GILSANUB.ttf); }
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url(../fonts/Roboto-Medium.ttf); }
+
+
+* {
+  font-family: "Roboto-Medium"; }
+
+.Body_class{
+    background-color: #00001a;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.main_sect{
+}
+
+.btn{
+    color: white;
+    background-color: #680003;
+    border: 3px solid #ff7a01;
+    
+}
+
+.btn:hover{
+    color: white;
+    background-color: #ff7a01;
+    border: 3px solid #680003;
+}
+
