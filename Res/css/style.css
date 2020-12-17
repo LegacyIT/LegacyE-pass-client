@@ -16,7 +16,7 @@
   font-family: "Roboto-Medium"; }
 
 .Body_class{
-    background-color: #00001a;
+    background-color: #00001a; //this is the color for the background
     color: aliceblue;
     text-decoration: none;
 }
