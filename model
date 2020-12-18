@@ -1,0 +1,46 @@
+LegacyAM = {
+  fullname: "",
+  email: "",
+  photo: "file",
+  phonenumber: "",
+  position: ["Affiliate"],
+  designation: ["Content Creator", "Digital Marketer"],
+};
+
+LegacyCR = {
+  fullname: "",
+  email: "",
+  photo: "file",
+  phonenumber: "",
+  position: ["Staff", "Volunteer", "Intern"],
+  designation: [
+    "Graphics Designer",
+    "Motion Artist",
+    "Logo Specialist",
+    "Cartoonist",
+  ],
+};
+
+LegacyGS = {
+  fullname: "",
+  email: "",
+  photo: "file",
+  phonenumber: "",
+  position: ["Intern"],
+  courses: [
+    "Graphics Design",
+    "Logo Specialization",
+    "Motion Graphics",
+    "Web Development",
+    "Digital Marketing",
+  ],
+};
+
+LegacyIT = {
+  fullname: "",
+  email: "",
+  photo: "file",
+  phonenumber: "",
+  position: ["Staff", "Volunteer", "Intern"],
+  designation: ["Frontend", "Backend", "UI/UX ", "Mobile", "FullStack"],
+};
