@@ -55,34 +55,112 @@
             </div>
 
             <div class="m-5">
-                <p class="text-center">Select your appropriate department below</p>
+                <p class="text-center">Ensure All Your Details Are Correct Before Proceeding</p>
             </div>
 
             <div class="container-fluid ">
-                <!-- Form menu for list of departments  -->
-                <form class="">
-                    <div class="form-group">
-                        <select name="IT_pos" class="custom-select w-75 mx-auto d-block" id="select_IT_pos">
-                            <option selected>IT Position</option>
-                            <option value="Staff">Staff</option>
-                            <div class="dropdown-divider"></div>
-                            <option value="LegacyIT">Volunteer</option>
-                            <div class="dropdown-divider"></div>
-                        </select>
-                        <br>
-                        <select name="IT_skill" class="custom-select w-75 mx-auto d-block" id="select_IT_skill">
-                            <option selected>Skill set</option>
-                            <option value="LegacyCR">UI/UX</option>
-                            <div class="dropdown-divider"></div>
-                            <option value="LegacyIT">Frontend</option>
-                            <div class="dropdown-divider"></div>
-                            <option value="LegacyAM">Backend</option>
-                        </select>
+
+
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-center" style="border-right: 2px solid #ff7a01">
+                        <div class="w-75">
+                            <div class="">
+                                <h3 class="text-center" style="color: #ff7a01">Creativity</h3>
+                                <p class="text-center">
+                                    <span style="color: #e60008">Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+
+                            <div class="">
+                                <h3 class="text-center" style="color: #ff7a01">Integrity</h3>
+                                <p class="text-center">
+                                    <span style="color: #e60008">Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+
+                            <div class="">
+                                <h3 class="text-center" style="color: #ff7a01">Excellence</h3>
+                                <p class="text-center">
+                                    <span style="color: #e60008">Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </form>
+
+                    <!-- Form menu for list of departments  -->
+                    <div class="col-md-6">
+                        <div class="container">
+                            <form class="">
+                                <div class="form-group">
+                                    <!--                                    <label for="uname">Name:</label>-->
+                                    <input type="text" class="form-control forms_inputs" id="uname" placeholder="Enter Your Full Name (Surname First)" name="uname" required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+
+                                <div class="form-group">
+                                    <!--                                    <label for="e_mail">Email:</label>-->
+                                    <input type="email" class="form-control forms_inputs" id="e_mail" placeholder="Enter Your Email" name="email" required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+
+                                <div class="form-group custom-file my-3">
+                                    <label for="dp_img" class="custom-file-label forms_inputs text-muted">Upload Your Profile Picture</label>
+                                    <input type="file" class="custom-file-input form-control" id="dp_img" placeholder="" name="your_dp" required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+
+                                <div class="form-group ">
+                                    <!--                                    <label for="phone_no">Phone Number:</label>-->
+                                    <input type="text" class="form-control forms_inputs" id="phone_no" placeholder="Enter Your Phone number" name="your_number" required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+
+                                <div class="form-group ">
+                                    <label for="form_des1">Select Position:</label><br>
+                                    <div class="custom-control custom-radio custom-control-inline" id="form_des1">
+                                        <input type="radio" class="custom-control-input" id="customRadio1" name="example1">
+                                        <label class="custom-control-label" for="customRadio1">Staff</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" class="custom-control-input" id="customRadio2" name="example2">
+                                        <label class="custom-control-label" for="customRadio2">Volunteer</label>
+                                    </div>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Pick an option to continue.</div>
+                                </div>
+
+                                <div class="form-group ">
+                                    <label for="form_des2">Select Skillset</label><br>
+                                    <div class="custom-control custom-radio custom-control-inline" id="form_des2">
+                                        <input type="radio" class="custom-control-input" id="exper" name="UseCase">
+                                        <label class="custom-control-label" for="exper">UI/UX</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" class="custom-control-input" id="styling" name="front_Only">
+                                        <label class="custom-control-label" for="styling">Frontend</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" class="custom-control-input" id="Logic" name="back_Only">
+                                        <label class="custom-control-label" for="Logic">Backend</label>
+                                    </div>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Pick an option to continue.</div>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Pick an option to continue.</div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- End of form -->
+                </div>
+
                 <div class="form-group d-flex justify-content-center m-3 p-3">
-                        <button class="btn w-25" id="valid_button" onclick="Select_DEPT()">Proceed</button>
-                    </div>
+                    <button class="btn w-25" id="valid_button" onclick="Select_DEPT()">Proceed</button>
+                </div>
             </div>
         </div>
 
@@ -98,6 +176,4 @@
     </section>
 
 
-</body>
-
-</html>
+</body></html>
