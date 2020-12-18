@@ -92,64 +92,56 @@
                         <div class="container">
                             <form class="">
                                 <div class="form-group">
-                                    <!--                                    <label for="uname">Name:</label>-->
                                     <input type="text" class="form-control forms_inputs" id="uname_AM" placeholder="Enter Your Full Name (Surname First)" name="uname" required>
-                                    <div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Please fill out this field.</div>
                                 </div>
 
                                 <div class="form-group">
-                                    <!--                                    <label for="e_mail">Email:</label>-->
                                     <input type="email" class="form-control forms_inputs" id="e_mail_AM" placeholder="Enter Your Email" name="email" required>
-                                    <div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Please fill out this field.</div>
                                 </div>
 
                                 <div class="form-group custom-file my-3">
                                     <label for="dp_img" class="custom-file-label forms_inputs text-muted">Upload Your Profile Picture</label>
                                     <input type="file" class="custom-file-input form-control" id="dp_img_AM" placeholder="" name="your_dp" required>
-                                    <div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Please fill out this field.</div>
                                 </div>
 
                                 <div class="form-group ">
-                                    <!--                                    <label for="phone_no">Phone Number:</label>-->
                                     <input type="text" class="form-control forms_inputs" id="phone_no_AM" placeholder="Enter Your Phone number" name="your_number" required>
-                                    <div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Please fill out this field.</div>
                                 </div>
 
                                 <div class="form-group ">
-                                    <label for="">Select Position:</label><br>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="checkbox" class="custom-control-input" id="Affiliate" name="example1">
-                                        <label class="custom-control-label" for="Affiliate">Affliate</label>
+                                    <label for="">Select Position:</label>
+                                    <br>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="pos_AM" id="Aff_AM" value="Affiliate">
+                                        <label class="form-check-label" for="Aff_AM">
+                                            Affiliate
+                                        </label>
                                     </div>
-                                    <div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Pick an option to continue.</div>
                                 </div>
 
                                 <div class="form-group ">
-                                    <label for="des_CR">Select Designation:</label><br>
-                                    <div class="custom-control custom-radio custom-control-inline" id="des_CR">
-                                        <input type="radio" class="custom-control-input" id="CCreate" name="UseCase">
-                                        <label class="custom-control-label" for="exper">Content Creator</label>
+                                    <label for="">Select Designation:</label>
+                                    <br>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="des_AM" id="CCreate" value="Content Creator">
+                                        <label class="form-check-label" for="CCreate">
+                                            Content Creator
+                                        </label>
                                     </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" id="styling" name="front_Only">
-                                        <label class="custom-control-label" for="styling">Digital Marketer</label>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="des_AM" id="DMark_AM" value="Digital Marketer">
+                                        <label class="form-check-label" for="DMark_AM">
+                                            Digital Marketer
+                                        </label>
                                     </div>
-                                    <div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Pick an option to continue.</div>
+                                </div>
+                                <div class="form-group d-flex justify-content-center m-3 p-3">
+                                    <button class="btn w-25" id="valid_button" onclick="">Proceed</button>
                                 </div>
                             </form>
                         </div>
                     </div>
                     <!-- End of form -->
-                </div>
-
-                <div class="form-group d-flex justify-content-center m-3 p-3">
-                    <button class="btn w-25" id="valid_button" onclick="Select_DEPT()">Proceed</button>
                 </div>
             </div>
         </div>

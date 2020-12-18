@@ -92,84 +92,86 @@
                         <div class="container">
                             <form class="">
                                 <div class="form-group">
-                                    <!--                                    <label for="uname">Name:</label>-->
-                                    <input type="text" class="form-control forms_inputs" id="uname" placeholder="Enter Your Full Name (Surname First)" name="uname" required>
-                                    <div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                    <input type="text" class="form-control forms_inputs" id="uname_IT" placeholder="Enter Your Full Name (Surname First)" name="uname" required>
                                 </div>
 
                                 <div class="form-group">
-                                    <!--                                    <label for="e_mail">Email:</label>-->
-                                    <input type="email" class="form-control forms_inputs" id="e_mail" placeholder="Enter Your Email" name="email" required>
-                                    <div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                    <input type="email" class="form-control forms_inputs" id="e_mail_IT" placeholder="Enter Your Email" name="email" required>
                                 </div>
 
                                 <div class="form-group custom-file my-3">
                                     <label for="dp_img" class="custom-file-label forms_inputs text-muted">Upload Your Profile Picture</label>
-                                    <input type="file" class="custom-file-input form-control" id="dp_img" placeholder="" name="your_dp" required>
-                                    <div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                    <input type="file" class="custom-file-input form-control" id="dp_img_IT" placeholder="" name="your_dp" required>
                                 </div>
 
                                 <div class="form-group ">
-                                    <!--                                    <label for="phone_no">Phone Number:</label>-->
-                                    <input type="text" class="form-control forms_inputs" id="phone_no" placeholder="Enter Your Phone number" name="your_number" required>
-                                    <div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                    <input type="text" class="form-control forms_inputs" id="phone_no_IT" placeholder="Enter Your Phone number" name="your_number" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Select Position:</label>
+                                    <br>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="pos_IT" id="Staff_IT" value="Staff">
+                                        <label class="form-check-label" for="Staff_IT">
+                                            Staff
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="pos_IT" id="Intern_IT" value="Intern">
+                                        <label class="form-check-label" for="Intern_IT">
+                                            Intern
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="pos_IT" id="Volunteer_IT" value="Volunteer">
+                                        <label class="form-check-label" for="Volunteer_IT">
+                                            Volunteer
+                                        </label>
+                                    </div>
                                 </div>
 
                                 <div class="form-group ">
-                                    <label for="form_des1">Select Position:</label><br>
-                                    <div class="custom-control custom-radio custom-control-inline" id="form_des1">
-                                        <input type="radio" class="custom-control-input" id="customRadio1" name="example1">
-                                        <label class="custom-control-label" for="customRadio1">Staff</label>
+                                    <label>Select Designation:</label>
+                                    <br>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="des_IT" id="exp_IT" value="UI/UX">
+                                        <label class="form-check-label" for="exp_IT">
+                                            UI/UX
+                                        </label>
                                     </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" id="customRadio2" name="example2">
-                                        <label class="custom-control-label" for="customRadio2">Volunteer</label>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="des_IT" id="Frontend_IT" value="Frontend">
+                                        <label class="form-check-label" for="Frontend_IT">
+                                            Frontend
+                                        </label>
                                     </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" id="customRadio3" name="example3">
-                                        <label class="custom-control-label" for="customRadio3">Intern</label>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="des_IT" id="Backend_IT" value="Backend">
+                                        <label class="form-check-label" for="Backend_IT">
+                                            Backend
+                                        </label>
                                     </div>
-                                    <div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Pick an option to continue.</div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="des_IT" id="Mobile_IT" value="Mobile">
+                                        <label class="form-check-label" for="Mobile_IT">
+                                            Mobile
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="des_IT" id="Fullstack_IT" value="Fullstack">
+                                        <label class="form-check-label" for="Fullstack_IT">
+                                            Fullstack
+                                        </label>
+                                    </div>
                                 </div>
-
-                                <div class="form-group ">
-                                    <label for="form_des2">Select Designation</label><br>
-                                    <div class="custom-control custom-radio custom-control-inline" id="form_des2">
-                                        <input type="radio" class="custom-control-input" id="exper" name="UseCase">
-                                        <label class="custom-control-label" for="exper">UI/UX</label>
-                                    </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" id="styling" name="front_Only">
-                                        <label class="custom-control-label" for="styling">Frontend</label>
-                                    </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" id="Logic" name="back_Only">
-                                        <label class="custom-control-label" for="Logic">Backend</label>
-                                    </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" id="mobile" name="back_Only">
-                                        <label class="custom-control-label" for="mobile">Mobile</label>
-                                    </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" id="Everything" name="back_Only">
-                                        <label class="custom-control-label" for="Everything">Fullstack</label>
-                                    </div>
-                                    <div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Pick an option to continue.</div>
+                                <div class="form-group d-flex justify-content-center m-3 p-3">
+                                    <button class="btn w-25" id="valid_button" onclick="">Proceed</button>
                                 </div>
                             </form>
                         </div>
                     </div>
                     <!-- End of form -->
-                </div>
-
-                <div class="form-group d-flex justify-content-center m-3 p-3">
-                    <button class="btn w-25" id="valid_button" onclick="Select_DEPT()">Proceed</button>
                 </div>
             </div>
         </div>
