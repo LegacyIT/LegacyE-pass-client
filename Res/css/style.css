@@ -1,39 +1,52 @@
 /* Fonts */
 @font-face {
-  font-family: 'Roboto-Bold';
-  src: url(../fonts/Roboto-Bold.ttf); }
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
 
 @font-face {
-  font-family: 'Gill-Sans';
-  src: url(../fonts/GILSANUB.ttf); }
+    font-family: 'Gill-Sans';
+    src: url(../fonts/GILSANUB.ttf);
+}
 
 @font-face {
-  font-family: 'Roboto-Medium';
-  src: url(../fonts/Roboto-Medium.ttf); }
+    font-family: 'Roboto-Medium';
+    src: url(../fonts/Roboto-Medium.ttf);
+}
 
 
 * {
-  font-family: "Roboto-Medium"; }
+    font-family: "Roboto-Medium";
+}
 
-.Body_class{
-    background-color: #00001a; //this is the color for the background
+.Body_class {
+    background-color: #00001a;
     color: aliceblue;
     text-decoration: none;
 }
 
-.main_sect{
-}
+.main_sect {}
 
-.btn{
+.btn {
     color: white;
     background-color: #680003;
     border: 3px solid #ff7a01;
-    
+
 }
 
-.btn:hover{
+.btn:hover {
     color: white;
     background-color: #ff7a01;
     border: 3px solid #680003;
 }
 
+
+/* this class gives the forms the unique look*/
+.forms_inputs{
+    color: white;
+    background-color: transparent;
+    border-bottom: 2px solid #ff7a01;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
